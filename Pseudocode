@@ -1,0 +1,38 @@
+c.	Pseudocode 
+
+1.	Start
+2.	Declaration of global variables
+3.	Functions prototypes
+4.	In the main():	
+a.	fillArray(arrayRow1, arrayRow2, arrayRow3, size):
+i.	Prompt the user to insert the data.
+ii.	Store the data in 3 arrays.
+b.	 checkRange(arrayRow1, arrayRow2,arrayRow3, size, MIN, MAX):
+
+i.	Applying the func to check all of the arrays' elements are within the eligible range (1 to 9).
+ii.	Return valid/not valid.
+c.	checkUnique(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size):
+i.	Applying the func to check all the arrays' elements are different the one another in each row.
+ii.	Return valid/not valid.
+d.	showArray(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size):
+i.	Applying the func to display all of the inserted data as a square.
+e.	checkRowSum(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size)
+i.	Applying the func to check if the sum of each one of the rows ius equal to 15.
+ii.	Return valid/not valid.
+f.	checkColSum(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size):
+i.	Applying the func to check if the sum of each one of the columns is equal to 15.
+ii.	Return valid/not valid.
+g.	checkDiagSum(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size):
+i.	Applying the func to check if the sum of each one of the diagonals is equal to 15.
+ii.	Return valid/not valid.
+h.	isMagicSquare(int arrayRow1[], int arrayRow2[], int arrayRow3[], int size)
+i.	Applying the func to gather all of the boolean values.
+ii.	Return valid/not valid.
+5.	If isMagicSquare func return true – display: Amazing!! This is a Lo Shu magic square!! 
+If not isMagicSquare func return true – display: This is not a Lo Shu magic square
+6.	Display a smessage asks the user if he want to play again
+7.	If Y/y (yes) – repit the main func (do-while loop).
+8.	If N/n (no) – end the func
+9.	Display an exit message included with: Name, Project number, Due date.
+10.	system("pause")
+11.	end
